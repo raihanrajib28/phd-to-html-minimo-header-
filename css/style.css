@@ -1,0 +1,56 @@
+/* font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;//
+/*font-family: 'Inconsolata', monospace;*/
+
+body{ 
+     margin: 0;
+     padding: 0; }
+
+body{
+	font-family: 'Playfair Display', serif;
+	color :#626262;
+}
+
+/*header start */
+header{
+	
+}
+.container{
+	width :80%;
+	margin:0 auto;
+	border:1px solid red ;
+}
+.logo{ 
+width :15%;
+
+float:left;}
+.logo img{width: 100%;
+      margin: 20px 0;}
+.menu{
+	width :70%;
+	
+	float:right;
+	margin: 20px 0;
+}
+.menu ul{}
+.menu ul li{
+	float:left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	font-size:16px;
+    font-weight:400;
+	color:#626262;
+	text-transform: uppercase;
+	display:inline-block;
+	text-decoration: none;
+	padding: 0 40px;
+}
+.menu ul li:last-child a{padding-right: 0; }
+.menu ul li a:hover{color: red;
+            transition-duration: .6s;}
+
+
+
+/*header end */
